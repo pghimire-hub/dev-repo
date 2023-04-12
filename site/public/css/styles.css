@@ -1,0 +1,228 @@
+/* Arra, Sai Pratyusha - 1001900857
+Chauhan, Anushka Singh - 1002033081
+Chenna, Vishal Anand - 1002034845
+Ghimire, Pushpa - 1000441575
+Singareddy, Bala Sujith Kumar - 1002052890 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul li {
+    float: none;
+    display: none;
+  }
+}
+
+nav {
+  display: block;
+  justify-content: right;
+  padding-right: 10px;
+  background-color: aliceblue;
+  font-size: large;
+}
+
+nav ul li {
+  display: inline-block;
+  float: none;
+  padding: 5px;
+  position: relative;
+}
+
+nav ul li a {
+  color: blue;
+}
+nav ul li a:visited {
+  color: maroon;
+}
+li a {
+  padding: 10px;
+}
+
+.clear {
+  display: inline-block;
+  font-size: 18px;
+  height: 3pc;
+  width: 100pc;
+  align-content: space-around;
+  padding: 10px;
+}
+
+main {
+  min-height: 95vh;
+  background: linear-gradient(to right top, #65dfc9, #65dbeb);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(../img/mainPic.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 80%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 60pt;
+}
+
+#formheading {
+  margin: 25px;
+  /* padding: 10px; */
+  font-size: x-large;
+  align-content: center;
+}
+
+#vehicleregistration {
+  padding-left: 35px;
+  font-size: large;
+  width: 99%;
+}
+
+.vregtable {
+  border: 1px solid black;
+}
+
+.visitingbuilding2nd {
+  width: 99%;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.visitingbuilding {
+  width: 99%;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.getdirections tr {
+  border-block: 1px solid black;
+}
+.getdirections td {
+  padding: 10px;
+  text-align: start;
+  vertical-align: top;
+}
+
+.visitingbuildingtr td {
+  padding: 5px;
+}
+
+#contacttable td {
+  padding: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  align-self: auto;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  padding: 1px 4px;
+  border-radius: 10%;
+  font-size: 18px;
+}
+
+input[type="submit"],
+button {
+  padding: 10px 40px;
+  align-items: right;
+  font-size: medium;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #65dbeb;
+}
+
+select {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Class selector .classname, ID sector #IDvalue */
+/* attribute selector input[], input[type=text] */
+/* pseudo-class and pseudo-element sector
+a:link, a:visited, :hover, :active etc :root
+a:link:last-child,
+#main div p:first-child
+block element : <p> <div> <h2>
+inline element : <image> <span> <a>
+<overflow property> hidden, visible, scroll, auto.
+*/
+
+/*
+---------------Security manager------------
+*/
+
+#managesecurity input {
+  width: 25vw;
+  margin: 2px;
+}
+
+/*--------For Services page images setup--------*/
+
+.images {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
+.description {
+  padding: 15px;
+  text-align: center;
+}
+
+#map {
+  margin-left: 20%;
+}
+
+.btn-start-app {
+  background-color: #ecf2ec; /* Green */
+  border: none;
+  text-decoration-color: rgb(183, 14, 14);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 12px;
+  align-items: center;
+  width: 100%;
+  margin-top: 10vw;
+}
